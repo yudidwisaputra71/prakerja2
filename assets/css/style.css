@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 3px 7px 23px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 23px -4px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 23px -4px rgba(0,0,0,0.75);
+}
+
+#home { 
+     background : linear-gradient (Orgba(52, 58, 64, 1), Orgba(0, 0, 0, 1));
+     height : 100vh; 
+     padding-top : 200px; 
+     
+}
+
+
+#services { 
+    padding-top : 80px; 
+    padding-bottom : 80px;
+}
+
+    
+/* text */ 
+.home-title {
+font-size : 60px; color : coral; 
+}
+
+.home-subtitle { 
+    font-size : 30px; 
+    font-weight : lighter; 
+    color : white;
+}
+
+.title { 
+    font-size : 50px; 
+    color : white; 
+}
+.subtitle {  
+    font-size : 20px; 
+    font-weight : lighter; 
+    color : white;
+}
+
+.subtitle-name {  
+    font-size : 25px; 
+    font-weight : lighter; 
+    color : white;
+}
+
+.card-text {  
+    font-size : 20px; 
+    font-weight : lighter; 
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.text-muted { 
+    font-size : 20px; 
+    color : white;
+    text-align: center;
+}
